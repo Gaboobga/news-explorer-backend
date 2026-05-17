@@ -1,0 +1,38 @@
+{
+  "name": "news-explorer-backend",
+  "version": "1.0.0",
+  "description": "Backend para News Explorer",
+  "homepage": "https://github.com/gaboobga/news-explorer-backend#readme",
+  "bugs": {
+    "url": "https://github.com/gaboobga/news-explorer-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaboobga/news-explorer-backend.git"
+  },
+  "license": "ISC",
+  "author": "gaboobga",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "celebrate": "^15.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-winston": "^4.2.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "nodemon": "^3.1.14"
+  }
+}
