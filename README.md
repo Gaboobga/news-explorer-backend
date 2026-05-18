@@ -2,9 +2,10 @@
 
 API REST para la aplicación News Explorer.
 
-## Dominio
+## Dominios
 
-https://news-explorer-g.mooo.com
+- Frontend: https://news-explorer-g.mooo.com
+- API: https://api.news-explorer-g.mooo.com
 
 ## Endpoints
 
@@ -22,3 +23,5 @@ https://news-explorer-g.mooo.com
 - MongoDB
 - JWT
 - Mongoose
+- Nginx
+- Google Cloud
