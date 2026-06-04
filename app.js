@@ -7,9 +7,9 @@ const router = require('./routes/index');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const app = express();
-const { PORT = 3000 } = process.env;
+const { PORT = 3000, MONGODB_URI = 'mongodb://localhost:27017/news-explorer' } = process.env;
 
-mongoose.connect('mongodb://localhost:27017/news-explorer');
+mongoose.connect(MONGODB_URI);
 
 app.use(helmet());
 app.use(cors());
